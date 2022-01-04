@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from "styled-components/macro";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -75,6 +75,17 @@ html {
 
 html, body, #root {
   height: 100%;
+}
+
+:root {
+  --white: hsl(0deg, 0%, 100%);
+  --gray-100: 185deg 5% 95%;
+  --gray-300: 190deg 5% 80%;
+  --gray-500: 196deg 4% 60%;
+  --gray-700: 220deg 5% 40%;
+  --gray-900: 220deg 3% 20%;
+  --primary: hsl(340deg 60% 47%);
+  --secondary: hsl(240deg 60% 63%);
 }
 `;
 
